@@ -1,0 +1,265 @@
+body {
+    margin: 0;
+    height: 100vh; /* Set body height to 100% viewport height */
+    font-family: Arial, sans-serif;
+  }
+  
+nav {
+  width: 280px; /* Set the width of the navbar */
+  height: 100vh; /* Set the height to 100% viewport height */
+  background-color: #fb5e42; /* Set background color */
+  position: fixed; /* Fix the navbar to the left side */
+  top: 0; /* Start from the top */
+  left: 0; /* Position it at the left edge */
+  overflow-y: auto; /* Added property */
+}
+
+#brand_name{
+  color: #FFFFFF;
+  font-size: 25px; /* Sets font size to 25 pixels */
+  margin: 5px;
+}
+
+#margin_home{
+  margin-top: 40px; /* Add margin from the top */
+}
+
+nav ul {
+  list-style: none; /* Remove default list styling */
+  padding: 10px; /* Remove default padding */
+  margin-top: 100px; /* Add margin from the top */
+}
+
+nav li {
+  padding: 10px 20px; /* Set padding for each list item */
+}
+
+.button {
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* Set button text color */
+  padding: 5px 5px; /* Add padding to buttons */
+  border: none; /* Remove default border */
+  cursor: pointer; /* Indicate clickable element */
+  font-size: 20px; /* Set button text size */
+}
+
+.button:hover {
+  background-color: #3e8e41; /* Change background color on hover */
+}
+
+main {
+  margin-left: 320px; /* Set left margin equal to navbar width */
+  padding: 20px; /* Add some padding to the main content */
+  height: 100vh; /* Added property */
+  overflow-y: scroll; /* Added property */
+}
+
+#interior{
+  margin-top: 70px; /* Add margin from the top */
+  font-size: 50px;
+}
+
+#showcase{
+  font-size: 40px;
+  color: #fb5e42;
+  margin: 20px 0; /* Add some margin above and below the line */
+}
+
+#services{
+  font-size: 40px;
+  color: #fb5e42;
+  margin: 20px 0; /* Add some margin above and below the line */
+  margin-top: 60px; /* Add margin from the top */
+}
+
+.horizontal-line {
+  height: 8px; /* Set the height of the line */
+  background-color: #fb5e42; /* Set the background color */
+  width: 4.5%; /* Set the width to 4.5% (full width) */
+  margin: 5px 0; /* Add some margin above and below the line */
+  border-radius: 5px; /* Rounds off corners with a 5px radius */
+}
+
+.image-container {
+  display: flex; /* Make the container a flexbox */
+  flex-wrap: wrap; /* Allow images to wrap onto multiple lines */
+  width: 100%; /* Set container width to 100% of its parent */
+}
+
+.image-container img {
+  width: 47%; /* Set each image to 50% width */
+  margin: 8px; /* Add some margin between images */
+  margin-top: 20px;
+}
+
+.image-designer {
+  display: flex; /* Make the container a flexbox */
+  flex-wrap: wrap; /* Allow images to wrap onto multiple lines */
+  width: 100%; /* Set container width to 100% of its parent */
+}
+
+#explain{
+  font-size: 20px;
+}
+
+#bio{
+  font-size: 15px;
+  color: #000000;
+}
+
+.designer-image-container {
+  display: flex; /* Make the container a flexbox */
+  flex-wrap: wrap; /* Allow images to wrap onto multiple lines */
+  width: 100%; /* Set container width to 100% of its parent */
+}
+
+.designer-container {
+  background-color: #ebe7e7;
+  margin: 8px;
+}
+
+.designer-container img {
+  width: 350px; /* Set each image to 350px width */
+}
+
+.caption {
+  margin: 10px;
+}
+
+#occupation1 {
+  color: #af9494;
+}
+
+#occupation2 {
+  color: #af9494;
+}
+
+#occupation3 {
+  color: #af9494;
+}
+
+.booking-container {
+  display: flex;
+  width: 100%;
+  /* align-items: center; */
+}
+
+.booking-container table {
+  box-shadow: 0 0 0.5px black;
+  width: 450px;
+  margin: 20px;
+  margin-top: 0;
+}
+
+.booking-container tr {
+  box-shadow: 0 0 0.7px black;
+  text-align: center;
+}
+
+.booking-container tr:first-child {
+  height: 90px;
+  color: white;
+  font-size: 25px;
+}
+
+.row-height {
+  height: 50px;
+  background-color: #f5eeee;
+}
+
+.button-container {
+  font-size: 20px;
+  border: none; /* Removes default button border */
+  padding: 5px 10px; /* Button padding */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+}
+
+#plus1:hover {
+  background-color: #3e8e41;
+}
+
+#plus2:hover {
+  background-color: #3e8e41;
+}
+
+#minus1:hover {
+  background-color: red;
+}
+
+#minus2:hover {
+  background-color: red;
+}
+
+#price {
+  font-size: 20px;
+}
+
+#basic-color {
+  background-color: #453939;
+}
+
+#pro-color {
+  background-color: #fb5e42;
+}
+
+#basic-signup {
+  font-size: 20px;
+  border: none; /* Removes default button border */
+  padding: 5px 10px; /* Button padding */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  color: white;
+  background-color: #453939;
+}
+
+#basic-signup:hover {
+  background-color: black;
+}
+
+#pro-signup {
+  font-size: 20px;
+  border: none; /* Removes default button border */
+  padding: 5px 10px; /* Button padding */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  color: white;
+  background-color: #fb5e42;
+}
+
+#pro-signup:hover {
+  background-color: red;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column; /* Set the label and input field column wise */
+  width: 1075px;  /* Adjust form width as needed */
+}
+
+label {
+  margin-bottom: 5px; /* Set margin between label and input */
+  display: block;
+  font-size: 20px;
+}
+
+#message-button {
+  background-color: #fb5e42;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  height: 40px; /* Adjust height of button */
+  font-size: 20px;
+}
+
+#message-button:hover {
+  background-color: red;
+}
+
+#name, #email, #message {
+  height: 40px; /* Adjust height of input field */
+}
+
+.form-distance {
+  margin-bottom: 15px; /* Adjust distance between input field */
+}
+
